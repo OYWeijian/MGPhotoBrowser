@@ -2,9 +2,12 @@ Pod::Spec.new do |s|
 
   s.name = 'MGPhotoBrowser'
   s.version = '2.1.2'
-  s.license = 'MIT'
+  s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary = 'A simple iOS photo and video browser with optional grid view, captions and selections.'
-
+s.description = <<-DESCRIPTION
+                MGPhotoBrowser can display one or more images or videos by providing either UIImage
+                objects, PHAsset objects, or URLs to library assets, web images/videos or local files.
+                DESCRIPTION
   s.homepage = 'https://github.com/OYWeijian/MGPhotoBrowser'
   s.author = { 'OYWeijian' => '123789456abc0@163.com' }
 
@@ -12,7 +15,7 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/OYWeijian/MGPhotoBrowser.git',
     :tag => '2.1.2'
   }
-  s.platform = :ios, '7.0'
+  s.platform = :ios, '9.0'
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'MGPhotoBrowser' => ['Pod/Assets/*.png']

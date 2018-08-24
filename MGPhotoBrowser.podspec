@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name = 'MGPhotoBrowser'
   s.version = '2.1.2'
-  s.license = { :type => "MIT", :file => "LICENSE" }
+  s.license = 'MIT'
   s.summary = 'A simple iOS photo and video browser with optional grid view, captions and selections.'
 s.description = <<-DESCRIPTION
                 MGPhotoBrowser can display one or more images or videos by providing either UIImage
